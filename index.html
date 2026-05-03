@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lettermint Test Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-96">
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+        <form action="/api/contact" method="POST" class="space-y-4">
+            <input type="text" name="name" placeholder="Name" required class="w-full border p-2 rounded">
+            <input type="email" name="email" placeholder="Recipient Email" required class="w-full border p-2 rounded">
+            <textarea name="message" placeholder="Message" required class="w-full border p-2 rounded"></textarea>
+            <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">
+                Send via Lettermint
+            </button>
+        </form>
+    </div>
+</body>
+</html>
