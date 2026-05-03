@@ -1,5 +1,4 @@
----
-
+# 🚀 Lettermint Quickstart Boilerplate (TS + Express)
 ## 🐳 Docker Deployment
 If you prefer to run this as a containerized microservice:
 
